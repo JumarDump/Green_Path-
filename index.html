@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Green Path promotes environmental awareness and sustainable living.">
+    <title>GREEN PATH HTML FINAL OUTPUT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Header -->
+<header class="header" id="home">
+    <div class="nav-container">
+        <a href="#home" class="logo">
+            <img src="images/logo.png" alt="Green Path logo">
+            <span>Green Path</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Open navigation" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="navigation" id="navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#learn">Learn</a>
+            <a href="#infographics">Environment</a>
+            <a href="#action">Take Action</a>
+            <a href="#contact" class="nav-contact">Contact Us</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+<!-- Hero-->
+<section class="hero">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+        <p class="eyebrow">A GREENER TOMORROW STARTS TODAY</p>
+
+        <h1>Protect Nature.<br>
+            <span>Preserve Our Future.</span>
+        </h1>
+
+        <p class="hero-description">
+            Discover environmental challenges, learn sustainable habits, and take meaningful steps toward a healthier planet.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#learn" class="button button-primary">Explore Topics</a>
+            <a href="#action" class="button button-outline">Take Action</a>
+        </div>
+    </div>
+
+    <div class="hero-bottom">
+        <span>SMALL ACTIONS. LASTING IMPACT.</span>
+        <span>OUR PLANET, OUR RESPONSIBILITY.</span>
+    </div>
+</section>
+
+<!-- Loop/Ticker -->
+<div class="ticker">
+    <div class="ticker-track">
+        <span>PROTECT OUR FORESTS</span>
+        <span>REDUCE PLASTIC WASTE</span>
+        <span>CONSERVE WATER</span>
+        <span>PROTECT WILDLIFE</span>
+        <span>BUILD A GREENER FUTURE</span>
+        <span>PROTECT OUR FORESTS</span>
+        <span>REDUCE PLASTIC WASTE</span>
+        <span>CONSERVE WATER</span>
+        <span>PROTECT WILDLIFE</span>
+        <span>BUILD A GREENER FUTURE</span>
+    </div>
+</div>
+
+<!-- Information about -->
+<section class="section about-section" id="about">
+    <div class="about-grid">
+        <div class="about-images">
+            <img class="about-image-main"
+                 src="images/about-forest.jpg"
+                 alt="A green forest filled with trees">
+
+            <img class="about-image-small"
+                 src="images/about-leaves.jpg"
+                 alt="Green leaves in nature">
+
+            <div class="about-image-label">
+                <strong>One Planet.</strong>
+                <span>One Shared Future.</span>
+            </div>
+        </div>
+
+        <div class="about-content">
+            <p class="section-label">ABOUT GREEN PATH</p>
+
+            <h2>A Better Future Begins With How We Treat Our Planet.</h2>
+
+            <p>
+                Green Path is an environmental awareness website dedicated to helping people understand the challenges facing our natural world.
+            </p>
+
+            <p>
+                Through accessible information and practical suggestions, we encourage everyone to make thoughtful choices that help protect ecosystems, conserve resources, and reduce waste.
+            </p>
+
+            <div class="about-features">
+                <div>
+                    <span class="feature-mark">01</span>
+                    <div>
+                        <strong>Learn</strong>
+                        <p>Understand environmental challenges.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <span class="feature-mark">02</span>
+                    <div>
+                        <strong>Act</strong>
+                        <p>Practice more sustainable habits.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <span class="feature-mark">03</span>
+                    <div>
+                        <strong>Inspire</strong>
+                        <p>Encourage others to protect nature.</p>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#learn" class="text-link">Discover our mission →</a>
+        </div>
+    </div>
+</section>
+
+<!-- Learn section or topic section -->
+<section class="section learn-section" id="learn">
+    <div class="section-heading">
+        <p class="section-label">LEARN ABOUT OUR PLANET</p>
+        <h2>Environmental Challenges</h2>
+        <p>
+            Explore major environmental issues and understand why protecting our planet matters.
+        </p>
+    </div>
+
+    <div class="topic-grid">
+
+        <article class="topic-card">
+            <div class="topic-image">
+                <img src="images/climate11.jpg" alt="Climate change and a warming planet">
+            </div>
+
+            <div class="topic-body">
+                <img src="images/climate-icon.png" alt="" class="topic-icon">
+                <p class="topic-category">CLIMATE</p>
+                <h3>Climate Change</h3>
+                <p>
+                    Understand changing temperatures, extreme weather, and the importance of reducing greenhouse gas emissions.
+                </p>
+                <button class="text-link learn-more"
+                        data-topic="climate">Learn More →</button>
+            </div>
+        </article>
+
+        <article class="topic-card featured-card">
+            <div class="topic-image">
+                <img src="images/plastic11.jpg" alt="Plastic waste affecting the environment">
+            </div>
+
+            <div class="topic-body">
+                <img src="images/plastic-icon.png" alt="" class="topic-icon">
+                <p class="topic-category">WASTE</p>
+                <h3>Plastic Pollution</h3>
+                <p>
+                    Discover how plastic waste affects oceans, wildlife, communities, and natural habitats.
+                </p>
+                <button class="text-link learn-more"
+                        data-topic="plastic">Learn More →</button>
+            </div>
+        </article>
+
+        <article class="topic-card">
+            <div class="topic-image">
+                <img src="images/deforestation11.jpg" alt="Trees in a forest">
+            </div>
+
+            <div class="topic-body">
+                <img src="images/forest-icon.png" alt="" class="topic-icon">
+                <p class="topic-category">FORESTS</p>
+                <h3>Deforestation</h3>
+                <p>
+                    Learn how forest loss affects wildlife, soil, water systems, and the climate.
+                </p>
+                <button class="text-link learn-more"
+                        data-topic="forest">Learn More →</button>
+            </div>
+        </article>
+
+        <article class="topic-card">
+            <div class="topic-image">
+                <img src="images/biodiversity11.jpg" alt="Wildlife and biodiversity">
+            </div>
+
+            <div class="topic-body">
+                <img src="images/biodiversity-icon.png" alt="" class="topic-icon">
+                <p class="topic-category">WILDLIFE</p>
+                <h3>Biodiversity</h3>
+                <p>
+                    Explore why different species and healthy ecosystems are essential for life on Earth.
+                </p>
+                <button class="text-link learn-more"
+                        data-topic="biodiversity">Learn More →</button>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<!-- Title Environment Infographics -->
+<section class="section infographics" id="infographics">
+    <div class="section-heading">
+        <p class="section-label">VISUAL INFORMATION</p>
+        <h2>Environmental Insights</h2>
+        <p>
+            Explore important environmental topics through visual information and simple explanations.
+        </p>
+    </div>
+
+    <div class="infographic-list">
+
+        <!--Box For Info -->
+        <!-- Box 1 Climate-->
+        <article class="infographic-box">
+            <div class="infographic-image">
+                <img src="images/climate.jpg"
+                     alt="Climate change environmental image"
+                     loading="lazy">
+                <span class="image-click-hint">Click to enlarge ↗</span>
+            </div>
+
+            <div class="infographic-content">
+                <p class="infographic-number">01 / CLIMATE</p>
+                <h3>Climate Change</h3>
+
+                <p>
+                    Climate change refers to long-term changes in temperatures and weather patterns. Human activities, particularly burning fossil fuels, increase greenhouse gases that trap heat in the atmosphere.
+                </p>
+
+                <div class="infographic-point">
+                    <strong>Why it matters</strong>
+                    <span>
+                        A changing climate can affect communities, agriculture, water supplies, and natural ecosystems.
+                    </span>
+                </div>
+
+                <div class="infographic-point">
+                    <strong>What can we do?</strong>
+                    <span>
+                        Save electricity, use public transportation when practical, and support cleaner energy.
+                    </span>
+                </div>
+            </div>
+        </article>
+
+        <!--Box 2 Pollution -->
+        <article class="infographic-box reverse">
+            <div class="infographic-image">
+                <img src="images/plastic.jpg"
+                     alt="Plastic pollution and waste"
+                     loading="lazy">
+                <span class="image-click-hint">Click to enlarge ↗</span>
+            </div>
+
+            <div class="infographic-content">
+                <p class="infographic-number">02 / WASTE</p>
+                <h3>Plastic Pollution</h3>
+
+                <p>
+                    Plastic pollution happens when plastic products
+                    accumulate in the environment. Improperly managed
+                    waste can reach rivers, coastlines, and oceans.
+                </p>
+
+                <div class="infographic-point">
+                    <strong>Why it matters</strong>
+                    <span>
+                        Plastic waste can harm wildlife, contaminate habitats,
+                        and break into smaller pieces that persist in nature.
+                    </span>
+                </div>
+
+                <div class="infographic-point">
+                    <strong>What can we do?</strong>
+                    <span>
+                        Carry reusable bags and bottles, sort waste properly,
+                        and avoid unnecessary single-use products.
+                    </span>
+                </div>
+            </div>
+        </article>
+
+        <!--Box 3 Deforest -->
+        <article class="infographic-box">
+            <div class="infographic-image">
+                <img src="images/deforestation.jpg"
+                     alt="Forest and deforestation awareness"
+                     loading="lazy">
+                <span class="image-click-hint">Click to enlarge ↗</span>
+            </div>
+
+            <div class="infographic-content">
+                <p class="infographic-number">03 / FORESTS</p>
+                <h3>Deforestation</h3>
+
+                <p>
+                    Deforestation is the removal of forests for activities
+                    such as agriculture, development, and resource extraction.
+                    Forests provide habitats and help regulate natural systems.
+                </p>
+
+                <div class="infographic-point">
+                    <strong>Why it matters</strong>
+                    <span>
+                        Forest loss can reduce wildlife habitats, increase
+                        erosion, and affect the carbon cycle and water systems.
+                    </span>
+                </div>
+
+                <div class="infographic-point">
+                    <strong>What can we do?</strong>
+                    <span>
+                        Support responsible forest management, reduce waste,
+                        and participate in appropriate tree-planting projects.
+                    </span>
+                </div>
+            </div>
+        </article>
+
+        <!--Box 4 biodiversee -->
+        <article class="infographic-box reverse">
+            <div class="infographic-image">
+                <img src="images/biodiversity.jpg"
+                     alt="Biodiversity and wildlife conservation"
+                     loading="lazy">
+                <span class="image-click-hint">Click to enlarge ↗</span>
+            </div>
+
+            <div class="infographic-content">
+                <p class="infographic-number">04 / WILDLIFE</p>
+                <h3>Biodiversity</h3>
+
+                <p>
+                    Biodiversity describes the variety of living organisms, including plants, animals, fungi, and microorganisms, and the ecosystems in which they live.
+                </p>
+
+                <div class="infographic-point">
+                    <strong>Why it matters</strong>
+                    <span>
+                        Healthy biodiversity supports food systems, pollination, ecosystem stability, and natural resources.
+                    </span>
+                </div>
+
+                <div class="infographic-point">
+                    <strong>What can we do?</strong>
+                    <span>
+                        Protect habitats, avoid disturbing wildlife, and support responsible conservation efforts.
+                    </span>
+                </div>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<!-- I,mpact section -->
+<section class="section impact-section" id="impact">
+    <div class="section-heading">
+        <p class="section-label">EVERY ACTION COUNTS</p>
+        <h2>Make Your Everyday Choices Matter</h2>
+        <p>
+            Sustainable living starts with habits we can practice
+            consistently at home, at school, and in our communities.
+        </p>
+    </div>
+
+    <div class="impact-grid">
+        <article class="impact-card">
+            <img src="images/plant-icon.png" alt="" loading="lazy">
+            <h3>Grow Green</h3>
+            <p>Care for plants and support healthy green spaces.</p>
+        </article>
+
+        <article class="impact-card">
+            <img src="images/recycle-icon.png" alt="" loading="lazy">
+            <h3>Reduce Waste</h3>
+            <p>Reuse items, recycle correctly, and avoid unnecessary waste.</p>
+        </article>
+
+        <article class="impact-card">
+            <img src="images/water-icon.png" alt="" loading="lazy">
+            <h3>Save Water</h3>
+            <p>Use water responsibly and fix wasteful habits.</p>
+        </article>
+
+        <article class="impact-card">
+            <img src="images/tree-icon.png" alt="" loading="lazy">
+            <h3>Protect Nature</h3>
+            <p>Respect wildlife and help preserve natural habitats.</p>
+        </article>
+    </div>
+</section>
+
+<!--Video -->
+<!--Try adding a video src if blocked by the web browser -->
+<section class="section videos-section" id="videos">
+    <div class="section-heading">
+        <p class="section-label">WATCH AND LEARN</p>
+        <h2>Environmental Learning Hub</h2>
+        <p>
+            Explore educational videos about environmental challenges and ways to make a difference.
+        </p>
+    </div>
+
+    <div class="video-grid">
+        <article class="video-card">
+            <div class="video-frame">
+                <iframe
+                    src="https://www.youtube-nocookie.com/embed/Q1fZAWi7Z_I"
+                    title="Environmental education video 1"
+                    loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen></iframe>
+            </div>
+            <h3>Understanding Our Environment</h3>
+            <p>Learn more about environmental issues and our planet.</p>
+        </article>
+
+        <article class="video-card">
+            <div class="video-frame">
+                <iframe
+                    src="https://www.youtube-nocookie.com/embed/TUinL0C_zgE"
+                    title="Environmental education video 2"
+                    loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen></iframe>
+            </div>
+            <h3>Protecting the Natural World</h3>
+            <p>Discover the importance of environmental protection.</p>
+        </article>
+
+        <article class="video-card">
+            <div class="video-frame">
+                <iframe
+                    src="https://www.youtube-nocookie.com/embed/HGC6u_NDaaM"
+                    title="Environmental education video 3"
+                    loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen></iframe>
+            </div>
+            <h3>Creating a Sustainable Future</h3>
+            <p>Explore actions that can help build a greener future.</p>
+        </article>
+    </div>
+</section>
+
+<!-- actionm sequence -->
+<section class="section action-section" id="action">
+    <div class="action-layout">
+        <div class="action-content">
+            <p class="section-label">YOUR DAILY GREEN CHECKLIST</p>
+            <h2>Small Steps Can Make a Difference.</h2>
+            <p>
+                Choose the sustainable habits you have completed.
+                Your score updates as you check them off.
+            </p>
+
+            <div class="action-progress">
+                <div class="progress-info">
+                    <span>Your progress</span>
+                    <strong id="actionScore">0 / 6 completed</strong>
+                </div>
+                <div class="progress-track">
+                    <div class="progress-fill" id="actionProgress"></div>
+                </div>
+            </div>
+
+            <div class="checklist" id="checklist">
+                <label class="checklist-item">
+                    <input type="checkbox" value="1">
+                    <span>Turn off unused lights and electronics.</span>
+                </label>
+
+                <label class="checklist-item">
+                    <input type="checkbox" value="1">
+                    <span>Bring a reusable bottle or bag.</span>
+                </label>
+
+                <label class="checklist-item">
+                    <input type="checkbox" value="1">
+                    <span>Dispose of waste in the proper bins.</span>
+                </label>
+
+                <label class="checklist-item">
+                    <input type="checkbox" value="1">
+                    <span>Use water responsibly.</span>
+                </label>
+
+                <label class="checklist-item">
+                    <input type="checkbox" value="1">
+                    <span>Avoid unnecessary single-use plastics.</span>
+                </label>
+
+                <label class="checklist-item">
+                    <input type="checkbox" value="1">
+                    <span>Share an environmental tip with someone.</span>
+                </label>
+            </div>
+
+            <p class="action-message" id="actionMessage" aria-live="polite">
+                Start with one small action today.
+            </p>
+        </div>
+
+        <div class="action-image">
+            <img src="images/about-forest.jpg"
+                 alt="A peaceful green forest"
+                 loading="lazy">
+
+            <div class="action-image-caption">
+                <span>LIVE RESPONSIBLY</span>
+                <h3>Care for the Earth in Everyday Life.</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- prototypoe/test donation box (money= rich hehe) -->
+<section class="section donation-section" id="donate">
+    <div class="donation-layout">
+        <div class="donation-content">
+            <p class="section-label">SUPPORT A GREENER FUTURE</p>
+            <h2>Every Contribution Starts With a Choice.</h2>
+
+            <p>
+                Explore this donation demo to see how a fundraising progress tracker works. No real money is collected and no payment is processed.
+            </p>
+
+            <div class="donation-stat-grid">
+                <div>
+                    <span>Demo contributions</span>
+                    <strong id="donationTotal">₱38,500</strong>
+                </div>
+                <div>
+                    <span>Demo supporters</span>
+                    <strong id="supporterCount">128</strong>
+                </div>
+            </div>
+
+            <div class="donation-progress-info">
+                <span>Demo fundraising goal</span>
+                <strong id="donationPercent">38.5%</strong>
+            </div>
+
+            <div class="progress-track donation-track">
+                <div class="progress-fill" id="donationProgress"></div>
+            </div>
+
+            <p class="donation-note">
+                Demonstration only — not a real fundraising or payment service.
+            </p>
+        </div>
+
+        <div class="donation-form">
+            <h3>Make a Demo Contribution</h3>
+            <p>Select an amount to test the progress tracker.</p>
+
+            <div class="donation-amounts">
+                <button type="button" class="amount-button" data-amount="100">₱100</button>
+                <button type="button" class="amount-button" data-amount="500">₱500</button>
+                <button type="button" class="amount-button" data-amount="1000">₱1,000</button>
+                <button type="button" class="amount-button" data-amount="5000">₱5,000</button>
+            </div>
+
+            <label for="customAmount">Custom amount (PHP)</label>
+            <input type="number" id="customAmount"
+                   min="1" max="1000000" placeholder="Enter an amount">
+
+            <button type="button" class="button button-primary donation-submit"
+                    id="donateButton">Add Demo Contribution</button>
+
+            <p id="donationMessage" class="form-message" aria-live="polite"></p>
+        </div>
+    </div>
+</section>
+
+<!-- CAMPAIGN -->
+<section class="campaign-section">
+    <div class="campaign-background"></div>
+
+    <div class="campaign-content">
+        <p class="section-label">GROW A GREENER FUTURE</p>
+        <h2>One Tree.<br>One Future.</h2>
+
+        <p>
+            Trees provide habitats, help store carbon, and support
+            healthier ecosystems. Protect existing forests and support
+            suitable local restoration efforts.
+        </p>
+
+        <a href="#action" class="button button-primary">Start Taking Action</a>
+    </div>
+</section>
+
+<!-- Awareness campaing probably?-->
+<section class="section awareness-section" id="awareness">
+    <div class="section-heading">
+        <p class="section-label">MAKE SUSTAINABLE CHOICES</p>
+        <h2>Simple Habits, Better Habitats</h2>
+        <p>
+            Begin with practical changes you can incorporate into your everyday routine.
+        </p>
+    </div>
+
+    <div class="awareness-grid">
+        <article class="awareness-card">
+            <img src="images/reusable.jpg"
+                 alt="Reusable everyday products" loading="lazy">
+            <div class="awareness-card-body">
+                <p class="topic-category">LESS WASTE</p>
+                <h3>Choose Reusables</h3>
+                <p>
+                    Keep reusable bags, bottles, and containers available to reduce dependence on disposable items.
+                </p>
+            </div>
+        </article>
+
+        <article class="awareness-card">
+            <img src="images/water.jpg"
+                 alt="Clean water in nature" loading="lazy">
+            <div class="awareness-card-body">
+                <p class="topic-category">CONSERVATION</p>
+                <h3>Use Water Wisely</h3>
+                <p>
+                    Avoid unnecessary water use and help keep local
+                    waterways free from waste.
+                </p>
+            </div>
+        </article>
+
+        <article class="awareness-card">
+            <img src="images/wildlife.jpg"
+                 alt="Wildlife in a natural habitat" loading="lazy">
+            <div class="awareness-card-body">
+                <p class="topic-category">BIODIVERSITY</p>
+                <h3>Respect Wildlife</h3>
+                <p>
+                    Observe animals responsibly and avoid disturbing
+                    the habitats they depend on.
+                </p>
+            </div>
+        </article>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section contact-section" id="contact">
+    <div class="contact-layout">
+        <div class="contact-content">
+            <p class="section-label">GET IN TOUCH</p>
+            <h2>Let's Work Toward a Greener Tomorrow.</h2>
+
+            <p>
+                Have an idea, question, or suggestion related to environmental awareness? Send a message through this demonstration contact form.
+            </p>
+
+            <div class="contact-detail">
+                <span class="contact-detail-mark">01</span>
+                <div>
+                    <strong>Share an Idea</strong>
+                    <p>Suggest a topic or environmental activity.</p>
+                </div>
+            </div>
+
+            <div class="contact-detail">
+                <span class="contact-detail-mark">02</span>
+                <div>
+                    <strong>Spread Awareness</strong>
+                    <p>Help more people discover sustainable habits.</p>
+                </div>
+            </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+            <h3>Send a Message</h3>
+
+            <label for="contactName">Your Name</label>
+            <input type="text" id="contactName"
+                   name="name" placeholder="Enter your name" required>
+
+            <label for="contactEmail">Email Address</label>
+            <input type="email" id="contactEmail"
+                   name="email" placeholder="Enter your email" required>
+
+            <label for="contactSubject">Subject</label>
+            <input type="text" id="contactSubject"
+                   name="subject" placeholder="What is your message about?" required>
+
+            <label for="contactMessage">Message</label>
+            <textarea id="contactMessage" name="message"
+                      rows="5" maxlength="1000"
+                      placeholder="Write your message here..." required></textarea>
+
+            <div class="character-counter">
+                <span id="characterCount">0</span> / 1000 characters
+            </div>
+
+            <button class="button button-primary" type="submit">
+                Submit Message
+            </button>
+
+            <p class="form-message" id="contactFeedback" aria-live="polite"></p>
+            <p class="form-note">
+                In test Form. No Dedicated Server PS.
+            </p>
+        </form>
+    </div>
+</section>
+
+</main>
+
+<!-- Footer section -->
+<footer class="footer">
+    <div class="footer-main">
+        <div class="footer-brand">
+            <a href="#home" class="logo footer-logo">
+                <img src="images/logo.png" alt="">
+                <span>Green Path</span>
+            </a>
+
+            <p>
+                Learning, creating, and taking action for a
+                healthier planet.
+            </p>
+        </div>
+
+        <div class="footer-links">
+            <h3>Explore</h3>
+            <a href="#about">About Us</a>
+            <a href="#learn">Environmental Topics</a>
+            <a href="#infographics">Environmental Insights</a>
+            <a href="#action">Take Action</a>
+        </div>
+
+        <div class="footer-links">
+            <h3>Get Involved</h3>
+            <a href="#videos">Learning Hub</a>
+            <a href="#donate">Donation Demo</a>
+            <a href="#awareness">Sustainable Habits</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© <span id="currentYear"></span> Green Path. Environmental awareness for everyone.</p>
+        <a href="#home" class="back-to-top" id="backToTop">Back to Top ↑</a>
+    </div>
+</footer>
+
+<!--Modal -->
+<div class="topic-modal" id="topicModal"
+     role="dialog" aria-modal="true"
+     aria-labelledby="modalTitle" aria-hidden="true">
+
+    <div class="modal-backdrop" id="modalBackdrop"> </div>
+
+    <div class="modal-content">
+        <button type="button" class="modal-close"
+                id="modalClose" aria-label="Close topic details"> </button>
+
+        <p class="section-label" id="modalCategory">ENVIRONMENTAL TOPIC</p>
+        <h2 id="modalTitle">Topic Title</h2>
+        <p id="modalDescription"></p>
+
+        <div class="modal-tip">
+            <strong>What you can do</strong>
+            <p id="modalAction"></p>
+        </div>
+
+        <button type="button" class="button button-primary" id="modalDone">
+            Got It
+        </button>
+    </div>
+</div>
+
+<!-- Adding here bottom Zoom mechanics on the photos -->
+<div class="image-zoom-viewer" id="imageZoomViewer"
+     role="dialog" aria-modal="true"
+     aria-label="Enlarged infographic image" aria-hidden="true">
+
+    <button class="zoom-close" id="zoomClose"
+            type="button" aria-label="Close image viewer"> </button>
+
+    <div class="zoom-toolbar">
+        <button type="button" id="zoomOut" aria-label="Zoom out">−</button>
+        <button type="button" id="zoomReset">Reset</button>
+        <button type="button" id="zoomIn" aria-label="Zoom in">+</button>
+    </div>
+
+    <div class="zoom-stage" id="zoomStage">
+        <img id="zoomedImage" src="" alt="">
+    </div>
+
+    <p class="zoom-hint">
+        Use + or − to zoom. On mobile, pinch with two fingers (for mobile).
+    </p>
+</div>
+
+<script src="script.js"></script>
+<!-- Add additional things if needed below here-->
+
+</body>
+</html>
